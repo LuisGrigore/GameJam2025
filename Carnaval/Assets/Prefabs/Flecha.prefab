@@ -133,3 +133,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  defaultSprite: {fileID: -848669322963793719, guid: abbcbd2417d19cf49b478346a03462de, type: 3}

@@ -46,3 +46,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefab: {fileID: 8969680858151785656, guid: 829135151af20b5469ce66225abc16a9, type: 3}
   spawnPoint: {fileID: 197476687751212601}
+  repeatRate: 1
+  sprite: {fileID: -848669322963793719, guid: abbcbd2417d19cf49b478346a03462de, type: 3}

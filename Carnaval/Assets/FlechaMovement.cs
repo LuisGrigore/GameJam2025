@@ -4,11 +4,24 @@ public class FlechaMovement : MonoBehaviour
 {
 
     public float speed = 5f;
-    SpriteRenderer childSpriteRenderer;
+
+    public Sprite defaultSprite;
+
+    private SpriteRenderer childSpriteRenderer;
 
     void Start()
     {
-        childSpriteRenderer = GetComponentInChildren<SpriteRenderer>();
+        Transform hijo = transform.Find("Sprite");
+        if (hijo != null)
+        {
+            childSpriteRenderer = hijo.GetComponent<SpriteRenderer>();
+        }
+
+        if (childSpriteRenderer != null)
+        {
+            childSpriteRenderer.color = Color.red;
+        }
+        instantiate(speed, defaultSprite, 90);
     }
     void Update()
     {
@@ -20,9 +33,6 @@ public class FlechaMovement : MonoBehaviour
     {
         this.speed = speed;
         transform.rotation = Quaternion.Euler(0, 0, rot);
-        if (childSpriteRenderer != null && newSprite != null)
-        {
-            childSpriteRenderer.sprite = newSprite;
-        }
+        childSpriteRenderer.sprite = newSprite;
     }
 }
