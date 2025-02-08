@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9d79e67e7e4346441893fa7e12b31a6b
+guid: 6d662b989ddaf5c448679798dfdb6680
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5163246878367585153
-    second: Icono Caramelo_0
+      213: 4719432196655577272
+    second: Final Provisional_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Icono Caramelo_0
+      name: Final Provisional_0
       rect:
         serializedVersion: 2
-        x: 132
-        y: 85
-        width: 176
-        height: 240
+        x: 0
+        y: 0
+        width: 2480
+        height: 2480
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f7c6147f1567858b0800000000000000
-      internalID: -5163246878367585153
+      spriteID: 8b87237049ace7140800000000000000
+      internalID: 4719432196655577272
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Icono Caramelo_0: -5163246878367585153
+      Final Provisional_0: 4719432196655577272
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

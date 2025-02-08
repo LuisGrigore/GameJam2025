@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 52ab928a80a06254a89e294be0c22d79
+guid: 28b2fc883eaaf3e468728f06003c91b7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7416983108819813601
-    second: Icono Peluche_0
+      213: -39946182606190386
+    second: Final Hover_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Icono Peluche_0
+      name: Final Hover_0
       rect:
         serializedVersion: 2
-        x: 108
-        y: 63
-        width: 520
-        height: 580
+        x: 0
+        y: 0
+        width: 2480
+        height: 2480
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f1bf8bdc825911990800000000000000
-      internalID: -7416983108819813601
+      spriteID: ec800a79825127ff0800000000000000
+      internalID: -39946182606190386
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Icono Peluche_0: -7416983108819813601
+      Final Hover_0: -39946182606190386
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

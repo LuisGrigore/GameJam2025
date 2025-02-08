@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 06e6cf1a4c11b6c41b37d91997211adc
+guid: 2650759348b20f64dac7038a92979b01
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4719432196655577272
-    second: Final Provisional_0
+      213: -7416983108819813601
+    second: Icono Peluche_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Final Provisional_0
+      name: Icono Peluche_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 2480
-        height: 2480
+        x: 108
+        y: 63
+        width: 520
+        height: 580
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8b87237049ace7140800000000000000
-      internalID: 4719432196655577272
+      spriteID: f1bf8bdc825911990800000000000000
+      internalID: -7416983108819813601
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Final Provisional_0: 4719432196655577272
+      Icono Peluche_0: -7416983108819813601
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

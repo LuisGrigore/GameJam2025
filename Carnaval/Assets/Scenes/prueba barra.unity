@@ -188,6 +188,34 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Bot\xF3n"
       objectReference: {fileID: 0}
+    - target: {fileID: 3093184418238260712, guid: 2ad45eadf70467348993699947967820, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 4719432196655577272, guid: 6d662b989ddaf5c448679798dfdb6680, type: 3}
+    - target: {fileID: 3093184418238260712, guid: 2ad45eadf70467348993699947967820, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3093184418238260712, guid: 2ad45eadf70467348993699947967820, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3093184418238260712, guid: 2ad45eadf70467348993699947967820, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -580796815
+      objectReference: {fileID: 0}
+    - target: {fileID: 3093184418238260712, guid: 2ad45eadf70467348993699947967820, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4346513985658027915, guid: 2ad45eadf70467348993699947967820, type: 3}
+      propertyPath: BotonPresionado
+      value: 
+      objectReference: {fileID: -39946182606190386, guid: 28b2fc883eaaf3e468728f06003c91b7, type: 3}
+    - target: {fileID: 4346513985658027915, guid: 2ad45eadf70467348993699947967820, type: 3}
+      propertyPath: BotonNoPresionado
+      value: 
+      objectReference: {fileID: 4719432196655577272, guid: 6d662b989ddaf5c448679798dfdb6680, type: 3}
     - target: {fileID: 4929645382463099341, guid: 2ad45eadf70467348993699947967820, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.1895366
