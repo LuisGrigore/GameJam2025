@@ -17,6 +17,11 @@ public class FlechaMovement : MonoBehaviour
 
         transform.position += Vector3.left * speed * Time.deltaTime;
     }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        Debug.Log("Colisión con: " + other.gameObject.name);
+        Destroy(gameObject); // Destruye este objeto
+    }
 
     public void Instantiate(float speed, Sprite newSprite, float rot, GameObject hijoPrefab)
     {

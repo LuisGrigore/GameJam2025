@@ -14,20 +14,12 @@ public class FlechaFactory : MonoBehaviour
 
     void Start()
     {
-        StartCoroutine(DoSequence());
+
     }
 
-    IEnumerator DoSequence()
-    {
-        List<float> delays = new List<float>{ 1, 2, 2, 0.5f, 0.5f, 2, 0.2f, 1 };
-        foreach (float delay in delays)
-        {
-            yield return new WaitForSeconds(delay);
-            SpawnObject();
-        }
-    }
 
-    private void SpawnObject()
+
+    public void SpawnObject()
     {
         if (prefab != null)
         {
