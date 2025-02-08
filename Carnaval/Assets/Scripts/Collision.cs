@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Collision : MonoBehaviour
 {
-	public bool canBePressed;
+	/*public bool canBePressed;
 
 	public KeyCode keyToPress;
 
@@ -66,5 +66,5 @@ public class Collision : MonoBehaviour
 				Instantiate(efectomalo, transform.position, efectomalo.transform.rotation);
 			}
 		}
-	}
+	}*/
 }

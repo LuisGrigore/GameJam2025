@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class Ritmo : MonoBehaviour
 {
-	public AudioSource Samba;
+	/*public AudioSource Samba;
 	public AudioSource MusicaFondo;
 	public AudioSource MusicaVictoria;
 	public AudioSource MusicaDerrota;
@@ -169,5 +169,5 @@ public class Ritmo : MonoBehaviour
 		Multiestado = 0;
 		MultiTexto.text = "x" + Multi;
 		NotasMalas++;
-	}
+	}*/
 }
