@@ -11,17 +11,6 @@ public class FlechaMovement : MonoBehaviour
 
     void Start()
     {
-        Transform hijo = transform.Find("Sprite");
-        if (hijo != null)
-        {
-            childSpriteRenderer = hijo.GetComponent<SpriteRenderer>();
-        }
-
-        if (childSpriteRenderer != null)
-        {
-            childSpriteRenderer.color = Color.red;
-        }
-        instantiate(speed, defaultSprite, 90);
     }
     void Update()
     {
@@ -29,8 +18,14 @@ public class FlechaMovement : MonoBehaviour
         transform.position += Vector3.left * speed * Time.deltaTime;
     }
 
-    public void instantiate(float speed, Sprite newSprite, float rot)
+    public void Instantiate(float speed, Sprite newSprite, float rot, GameObject hijoPrefab)
     {
+        GameObject hijo = Instantiate(hijoPrefab, transform.position, Quaternion.identity);
+        hijo.transform.SetParent(transform);
+
+        childSpriteRenderer = hijo.GetComponent<SpriteRenderer>();
+
+
         this.speed = speed;
         transform.rotation = Quaternion.Euler(0, 0, rot);
         childSpriteRenderer.sprite = newSprite;

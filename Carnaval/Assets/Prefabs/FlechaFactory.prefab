@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 197476687751212601}
-  - component: {fileID: 4527459978210648742}
+  - component: {fileID: 3583392804978103132}
   m_Layer: 0
   m_Name: FlechaFactory
   m_TagString: Untagged
@@ -32,7 +32,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4527459978210648742
+--- !u!114 &3583392804978103132
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -47,4 +47,9 @@ MonoBehaviour:
   prefab: {fileID: 8969680858151785656, guid: 829135151af20b5469ce66225abc16a9, type: 3}
   spawnPoint: {fileID: 197476687751212601}
   repeatRate: 1
-  sprite: {fileID: -848669322963793719, guid: abbcbd2417d19cf49b478346a03462de, type: 3}
+  spriteList:
+  - {fileID: -848669322963793719, guid: abbcbd2417d19cf49b478346a03462de, type: 3}
+  - {fileID: -4914293086481076916, guid: 998bebe05bc919b46930629e5af1aa03, type: 3}
+  - {fileID: 8832034069428253340, guid: 00b51088da7a32b4f9038a1c037de127, type: 3}
+  - {fileID: -3507496229795747212, guid: 11dd5df7cd6879c429e937b18083e8e9, type: 3}
+  spritePrefab: {fileID: 2209223233223066259, guid: 72bf06de09e70944b99397efaeae8abb, type: 3}
