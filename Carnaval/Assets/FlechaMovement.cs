@@ -22,12 +22,9 @@ public class FlechaMovement : MonoBehaviour
     {
         GameObject hijo = Instantiate(hijoPrefab, transform.position, Quaternion.identity);
         hijo.transform.SetParent(transform);
-
-        childSpriteRenderer = hijo.GetComponent<SpriteRenderer>();
-
+        hijo.GetComponent<FlechaSprite>().Instantiate(newSprite);
 
         this.speed = speed;
         transform.rotation = Quaternion.Euler(0, 0, rot);
-        childSpriteRenderer.sprite = newSprite;
     }
 }
