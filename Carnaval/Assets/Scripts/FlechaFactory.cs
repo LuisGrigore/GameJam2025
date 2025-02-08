@@ -1,5 +1,7 @@
 using UnityEngine;
 using System.Collections.Generic;
+using System.Collections;
+
 
 public class FlechaFactory : MonoBehaviour
 {
@@ -12,10 +14,20 @@ public class FlechaFactory : MonoBehaviour
 
     void Start()
     {
-        InvokeRepeating("SpawnObject", 0f, repeatRate);
+        StartCoroutine(DoSequence());
     }
 
-    public void SpawnObject()
+    IEnumerator DoSequence()
+    {
+        List<float> delays = new List<float>{ 1, 2, 2, 0.5f, 0.5f, 2, 0.2f, 1 };
+        foreach (float delay in delays)
+        {
+            yield return new WaitForSeconds(delay);
+            SpawnObject();
+        }
+    }
+
+    private void SpawnObject()
     {
         if (prefab != null)
         {
@@ -24,7 +36,7 @@ public class FlechaFactory : MonoBehaviour
 
             if (flechaMovement != null)
             {
-                flechaMovement.Instantiate(10f, GetRandomSprite(), GetRandomRotation(), spritePrefab);
+                flechaMovement.Instantiate(8f, GetRandomSprite(), GetRandomRotation(), spritePrefab);
             }
         }
     }
