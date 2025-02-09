@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Activador
   - GameManager
+  - Circle
+  - Arrow
   layers:
   - Default
   - TransparentFX

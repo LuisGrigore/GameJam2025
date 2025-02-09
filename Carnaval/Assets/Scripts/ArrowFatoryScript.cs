@@ -11,7 +11,7 @@ public class ArrowFatoryScript : MonoBehaviour
 	public void instantiateArrow()
 	{
 		GameObject arrow = Instantiate(arrowPrefab, transform.position, transform.rotation);
-		arrow.GetComponent<ArrowMovementScript>().init(speed, getRandomEnumValue(), getRandomSprite());
+		arrow.GetComponent<ArrowPropertiesScript>().init(speed, getRandomEnumValue(), getRandomSprite());
 	}
 
 	private ArrowDirections getRandomEnumValue()
