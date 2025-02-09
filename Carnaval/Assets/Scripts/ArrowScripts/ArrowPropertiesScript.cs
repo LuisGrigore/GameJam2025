@@ -65,7 +65,7 @@ public class ArrowPropertiesScript : MonoBehaviour
 		switch(direction)
 		{
 			case ArrowDirections.LEFT:
-				return KeyCode.LeftArrow;
+				return KeyCode.RightArrow;
 			case ArrowDirections.RIGHT:
 				return KeyCode.LeftArrow;
 			case ArrowDirections.UP:
