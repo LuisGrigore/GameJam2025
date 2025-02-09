@@ -42,14 +42,8 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: player
-    uniqueID: 3714170481
-    locked: 0
-  - name: flecha
-    uniqueID: 2632119451
-    locked: 0
-  - name: barra
-    uniqueID: 3105288675
+  - name: bar
+    uniqueID: 798001681
     locked: 0
   m_RenderingLayers:
   - Default
