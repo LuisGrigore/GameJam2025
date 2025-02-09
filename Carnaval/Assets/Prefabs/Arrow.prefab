@@ -12,6 +12,9 @@ GameObject:
   - component: {fileID: 7173888116155839044}
   - component: {fileID: 7826170588006913006}
   - component: {fileID: 6686735149416745078}
+  - component: {fileID: -2916927321712072946}
+  - component: {fileID: -690059126709826941}
+  - component: {fileID: 521814990313832682}
   m_Layer: 0
   m_Name: Arrow
   m_TagString: Untagged
@@ -147,6 +150,60 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6357ceb6c7c7e54eaeb54e1ee887885, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  arrowProperties: {fileID: -2916927321712072946}
+--- !u!114 &-2916927321712072946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7571490501229455287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b04fa77aed97fcd4fb45daff470a7c4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   speed: 0
   direction: 2
   spriteRenderer: {fileID: 7173888116155839044}
+  moveDirection: {x: -1, y: 0, z: 0}
+--- !u!114 &-690059126709826941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7571490501229455287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dac0ee53c4a0c4c4ebef5c26b3405d5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  arrowProperties: {fileID: -2916927321712072946}
+--- !u!50 &521814990313832682
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7571490501229455287}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0

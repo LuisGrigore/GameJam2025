@@ -8,6 +8,11 @@ public class PointManagerScript : MonoBehaviour
 
 	[SerializeField] private GameObject gameManager;
 
+	private void Start()
+	{
+		gameManager = GameObject.FindWithTag("GameManager");
+	}
+
 	public void updatePointText()
 	{
 		pointText.text = gameManager.GetComponent<GameManagerPlayerStatsScript>().getPoints().ToString();

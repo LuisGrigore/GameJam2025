@@ -1,37 +1,28 @@
 using UnityEngine;
 
-public enum ArrowDirections
-{
-	UP,
-	DOWN,
-	LEFT,
-	RIGHT
-}
+
 
 public class ArrowMovementScript : MonoBehaviour
 {
-	[SerializeField] private float speed = 0;
-	[SerializeField] private ArrowDirections direction = ArrowDirections.LEFT;
-	[SerializeField] private SpriteRenderer spriteRenderer;
-	private Vector3 moveDirection = Vector3.left;
 
+	[SerializeField] private ArrowPropertiesScript arrowProperties;
 	
 	public void Start()
 	{
-		moveDirection = rotateDirection(direction);
+		arrowProperties.moveDirection = rotateDirection(arrowProperties.direction);
 	}
 
 	public void Update()
     {
-        transform.position += moveDirection * speed * Time.deltaTime;
+        transform.position += arrowProperties.moveDirection * arrowProperties.speed * Time.deltaTime;
     }
 
 	public void init(float speed, ArrowDirections direction, Sprite sprite)
 	{
-		this.speed = speed;
-		this.direction = direction;
-		moveDirection = rotateDirection(direction);
-		spriteRenderer.sprite = sprite;
+		arrowProperties.speed = speed;
+		arrowProperties.direction = direction;
+		arrowProperties.moveDirection = rotateDirection(direction);
+		arrowProperties.spriteRenderer.sprite = sprite;
 	}
 
 	private Vector3 rotateDirection(ArrowDirections direction)
