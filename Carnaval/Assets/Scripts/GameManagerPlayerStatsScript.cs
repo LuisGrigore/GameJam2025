@@ -17,8 +17,8 @@ public class GameManagerPlayerStatsScript : MonoBehaviour
 	public void Start()
 	{
 		init();
-		setPoints(2000);
-		setCombo(5);
+		setPoints(0);
+		setCombo(0);
 	}
 
 
@@ -50,7 +50,7 @@ public class GameManagerPlayerStatsScript : MonoBehaviour
 
 	private void setPoints(int points)
 	{
-		this.points = points;
+		this.points += points;
 		onPointsChangedEvent?.Invoke();
 	}
 

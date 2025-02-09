@@ -355,7 +355,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 951542882822151698, guid: 69ea2e19302ca444aa9f2197de44a9d6, type: 3}
       propertyPath: intervals.Array.data[0].steps
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 951542882822151698, guid: 69ea2e19302ca444aa9f2197de44a9d6, type: 3}
       propertyPath: intervals.Array.data[0].onBeatEvent.m_PersistentCalls.m_Calls.Array.size
@@ -450,6 +450,10 @@ PrefabInstance:
       propertyPath: speed
       value: 40
       objectReference: {fileID: 0}
+    - target: {fileID: 2399503894028832717, guid: 5eaf7ea94c6f4644ebb58f2643bb9cfc, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 70687960}
     - target: {fileID: 3094981253992562307, guid: 5eaf7ea94c6f4644ebb58f2643bb9cfc, type: 3}
       propertyPath: m_Name
       value: Bar
