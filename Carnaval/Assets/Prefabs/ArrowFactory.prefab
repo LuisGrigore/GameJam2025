@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2527203285934009466}
+  - component: {fileID: 8894361817452261447}
   m_Layer: 0
   m_Name: ArrowFactory
   m_TagString: Untagged
@@ -31,3 +32,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8894361817452261447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5133534918552341653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a44f2b9942e93024480a6d70977ff264, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  arrowPrefab: {fileID: 7571490501229455287, guid: 94035830b45e6704791e300ce9f74670, type: 3}
+  speed: 10
+  sprites:
+  - {fileID: -848669322963793719, guid: abbcbd2417d19cf49b478346a03462de, type: 3}
+  - {fileID: -4914293086481076916, guid: 998bebe05bc919b46930629e5af1aa03, type: 3}
+  - {fileID: 8832034069428253340, guid: 00b51088da7a32b4f9038a1c037de127, type: 3}
+  - {fileID: -3507496229795747212, guid: 11dd5df7cd6879c429e937b18083e8e9, type: 3}
